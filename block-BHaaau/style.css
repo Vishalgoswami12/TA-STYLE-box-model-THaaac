@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.size {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.midd {
+  margin: 0 auto;
+  width: 30%;
+}
+.box1 {
+  height: 200px;
+  width: 200px;
+  border: 10px solid pink;
+
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.box2 {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.box3 {
+  height: 100%;
+  width: 100%;
+  background: aqua;
+  border: 10px solid green;
+  box-sizing: border-box;
+}
+.shift {
+  margin-left: 86px;
+}
+.circle1 {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+.aqua {
+  background: aqua;
+}
+.green {
+  background: green;
+}
+.black {
+  background: black;
+}
+.pink {
+  background: pink;
+}
+.inline {
+  display: inline-block;
+}
+.top {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.big-box {
+  height: 100px;
+  width: 600px;
+  padding: 10px;
+  border: 1px solid black;
+
+  margin: 30px auto;
+}
+.small1 {
+  height: 80px;
+  width: 180px;
+  background: yellow;
+}
+.big-box1 {
+  height: 240px;
+  width: 600px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+.b1 {
+  height: 100px;
+  width: 180px;
+  background: pink;
+}
+.border1 {
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+.border2 {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+.border3 {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.border4 {
+  border-top: 1px solid black;
+}
+.border5 {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.border6 {
+  border-top: 1px solid black;
+}
+.px {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.big-box2 {
+  height: 120px;
+  width: 600px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.b2 {
+  height: 100px;
+  width: 180px;
+  background: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+}
